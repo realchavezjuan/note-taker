@@ -1,5 +1,6 @@
 const express = require('express');
 const { notes } = require('./db/db.json');
+const { addNoteToDataBase } = require('./public/assets/js/index');
 const PORT = process.env.PORT || 3001;
 const app = express();
 const path = require('path');
@@ -29,7 +30,7 @@ app.get('/api/notes', (req, res) => {
 app.post('/api/notes', (req, res) => {
     const note = req.body;
     console.log(note);
-    res.json(note);
+    const test = addNoteToDataBase(note);
 });
 
 // PORT 3001

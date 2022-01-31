@@ -170,6 +170,12 @@ const renderNoteList = async (notes) => {
   }
 };
 
+const addNoteToDataBase = (body) => {
+return body;  
+  //notesArray.push(body);
+  //console.log(notesArray);
+};
+
 // Gets notes from the db and renders them to the sidebar
 const getAndRenderNotes = () => getNotes().then(renderNoteList);
 
@@ -181,3 +187,5 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+module.exports = { addNoteToDataBase };
