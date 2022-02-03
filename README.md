@@ -17,6 +17,7 @@ An organization app that helps keep track of all your to-dos.
 https://github.com/realchavezjuan/note-taker
 
 ## Heroku
+https://git.heroku.com/note-taker-by-juan.git
 
 ## Contribution
 Made by Juan C. Chavez
