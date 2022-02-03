@@ -1,12 +1,27 @@
-{
-"notes": [
-        {
-            "title":"Test Title",
-            "text":"Test text"
-        },
-        {
-            "title": "Hello",
-            "text": "Helloworld"
-        }
-    ]
-}
+[
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "Hello",
+    "text": "Helloworld"
+  },
+  {
+    "title": "d",
+    "text": "d"
+  },
+  {
+    "title": "ddd",
+    "text": "ddd"
+  },
+  {
+    "title": "fdasfds",
+    "text": "fadsf"
+  },
+  {
+    "title": "hjhj",
+    "text": "hbhbh",
+    "id": 0.9144591784553378
+  }
+]
